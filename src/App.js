@@ -9,6 +9,7 @@ import "./App.css";
 import Appbar from "./Navbar/Appbar";
 import Academic from "./Pages/Academic";
 import Home from "./Pages/Home";
+import Admission from "./Pages/Admission";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="/home" element={<Home/>} />
             <Route path="/academics" element={<Academic/>} />
+            <Route path="/admission" element={<Admission/>} />
           </Routes>
         </div>
       </Router>

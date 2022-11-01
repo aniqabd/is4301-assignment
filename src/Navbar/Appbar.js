@@ -13,7 +13,7 @@ function Appbar() {
           <Nav className="me-auto">
             <Nav.Link href="home">Home</Nav.Link>
             <Nav.Link href="academics">Academics</Nav.Link>
-            <Nav.Link href="#admission">Admission</Nav.Link>
+            <Nav.Link href="admission">Admission</Nav.Link>
             {/* <NavDropdown title="Admission" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
