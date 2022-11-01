@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import Appbar from "./Navbar/Appbar";
+import Academic from "./Pages/Academic";
 import Home from "./Pages/Home";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/home" element={<Home/>} />
+            <Route path="/academics" element={<Academic/>} />
           </Routes>
         </div>
       </Router>

@@ -10,7 +10,7 @@ function Home() {
   return (
     <div class="App">
       <Card>
-        <Card.Img variant="top" style={{height: "400px", width: "100%"}} src="/images/nus-logo.jpeg" />
+        <Card.Img variant="top" style={{height: "550px", width: "100%"}} src="/images/nus-logo.jpeg" />
         <Card.Body>
           <Card.Text style={{ fontSize: "30px", fontFamily: "-moz-initial" }}>
             NUS is a leading research university in Asia
