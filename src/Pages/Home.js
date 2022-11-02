@@ -5,6 +5,7 @@ import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import { Image } from "react-bootstrap";
 import { Card } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
           </Card.Text>
         </Card.Body>
       </Card>
+      <Button href="login" variant="primary" size="sm">Sign in with Google</Button>
     </div>
   );
 }
